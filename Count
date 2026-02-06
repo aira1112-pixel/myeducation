@@ -1,0 +1,9 @@
+try:
+    numbers = [56, 34, 90, 67, 2, 27, 87]
+    if not numbers:
+        print("Список пуст!")
+    else:
+        maximum = max(numbers)
+        print("Наибольшее число:", maximum)
+except Exception as e:
+    print("Ошибка:", e)
